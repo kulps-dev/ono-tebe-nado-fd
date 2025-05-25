@@ -11,9 +11,8 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 0 50px;
+    padding: 90px 50px 92px;
     background-color: white;
-    min-height: 293px;
 }
 
 .header__menu {
@@ -34,7 +33,7 @@
     list-style-type: circle;
     list-style-position: inside; /* Маркер внутри блока */
     padding-bottom: 7px; /* Регулируем отступ */
-    padding-left: 8px; /* Регулируем отступ */
+    margin-left: 8px; /* Регулируем отступ */
 }
 
 /* Убираем маркер у первого пункта */
@@ -99,8 +98,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 757px;
+    padding: 165px 50px 50px;
     z-index: 0;
+    width: 100%;
 }
 
 .overlay{
@@ -121,23 +121,24 @@
     font-size: 100px;
     font-weight: 700;
     line-height: 1;
-    padding: 172px 50px 50px;
     letter-spacing: 0.3em;
+    margin-bottom: 110px;
 }
 
 .aligned-text {
     display: block;
+    padding-top: 5px;
 }
 
 .aligned-text_center {
     text-align: center;
-    padding-top: 37px;
+    padding-top: 40px;
     padding-left: 30px;
 }
 
 .aligned-text_right{
     text-align: right;
-    padding-top: 32px;
+    padding-top: 35px;
 }
 
 .no-letter-spacing{
@@ -149,8 +150,6 @@
     justify-content: flex-start;
     align-items: center;
     gap: 103px;
-    padding-left: 50px;
-    padding-top: 64px;
   }
   
   .cover__description-text {
@@ -173,7 +172,7 @@
 /* section lots */
 
 .lots {
-    padding: 180px 24px 155px;
+    padding: 180px 24px 120px;
     background-color: white;
 }
 
@@ -249,7 +248,7 @@
     font-size: 20px;
     z-index: 1;
     color: white;
-    line-height: 24px;
+    line-height: 120%;
 }
 
 .lots__look-more-link {
@@ -274,6 +273,8 @@
     background-color: white;
     gap: 25px;
     min-width: 650px;
+    padding-top: 35px;
+    padding-bottom: 158px;
 }
 
 .about__logo {
@@ -314,7 +315,7 @@
     width: 665px;
  }
 
- .about__paragraph2 {
+ .about__details {
     width: 690px;
     letter-spacing: 0.001em;
  }
@@ -323,8 +324,9 @@
 
  .footer {
     display: grid;
+    position: relative;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 158px 50px ;
+    padding: 0px 50px 82px;
     background-color: white;
     color: black;
     font-size: 18px;
